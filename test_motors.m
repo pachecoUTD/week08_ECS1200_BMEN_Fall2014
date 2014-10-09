@@ -13,7 +13,7 @@ initialize_motor5
 
 %% Motor test code
 
-motorID = 5;
+motorID = 1;
 
 % This command sets the speed of motor 'motorID'. The motorSpeed variable
 % should be an integer between 0 and 255
