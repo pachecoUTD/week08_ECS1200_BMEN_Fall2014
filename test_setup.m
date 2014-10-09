@@ -4,7 +4,7 @@ fprintf('Welcome to Week #8 of ECS1200 for Bioengineering\n');
 serialInfo = instrhwinfo('serial');
 
 for k = 1:length(serialInfo.SerialPorts),
-    comports(k) = str2num(serialInfo.SerialPorts{k}(4));
+    comports(k) = str2num(serialInfo.SerialPorts{k}(4:end));
 end
 
 h = find(comports>=3);
