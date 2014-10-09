@@ -13,9 +13,6 @@ initialize_motor5
 
 %% Motor test code
 
-% Length of time to pause in between motor commands. This effects how long
-% the motor actually runs. See the code below for more details.
-
 motorID = 5;
 
 % This command sets the speed of motor 'motorID'. The motorSpeed variable
